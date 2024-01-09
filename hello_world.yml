@@ -4,4 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-
+        
+    - name: Show ansible_playbook_python
+      debug:
+        msg: "The ansible_playbook_python variable is: {{ ansible_playbook_python }}"
